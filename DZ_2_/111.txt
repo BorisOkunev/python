@@ -1,0 +1,43 @@
+git checkout C1
+git checkout main
+git commit
+git checkout C2
+
+main^
+
+git checkouy c3
+git checkout head^
+git branch -f main HEAD~3
+
+git reset HEAD~1
+git revert HEAD
+
+git cherry-pick <commit1>...
+
+rebase -i
+
+
+
+git rebase -i переместить нужный коммит наверх
+git commit --amend внести в него изменения
+git rebase -i поставить обратно
+main на измененную часть мэйн на измененную часть
+
+git tag v1 C1
+
+git describe
+
+git bisect
+tag_nimCommits_g hash
+
+git describe main
+
+
+
+
+
+
+
+
+
+
